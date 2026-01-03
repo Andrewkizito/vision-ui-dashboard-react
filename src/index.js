@@ -29,7 +29,6 @@ const root = createRoot(rootElement);
 
 
 root.render(<BrowserRouter>
-  <VisionUIControllerProvider>
     <App />
   </VisionUIControllerProvider>
 </BrowserRouter>)

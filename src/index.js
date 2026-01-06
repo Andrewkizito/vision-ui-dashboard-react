@@ -4,7 +4,6 @@ import { BrowserRouter } from "react-router-dom";
 import App from "App";
 import { VisionUIControllerProvider } from "context";
 
-// Yes indeed, I love React 18's new root API
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
